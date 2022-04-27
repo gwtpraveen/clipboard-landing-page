@@ -1,0 +1,46 @@
+@use "../com/global" as var;
+@use "../com/mixin" as *;
+@use "../com/common";
+
+.hero {
+    max-width: 375px;
+    padding: 0 0.8rem;
+    background: url(../../images/bg-header-mobile.png) no-repeat top center/cover;
+    margin: 0 auto 10rem;
+
+    .logo {
+        margin-top: 7rem;
+    }
+
+    .h1 {
+        font-size: 1.8rem;
+        margin-top: 2.5rem;
+    }
+
+    .discription {
+        margin: 1.3rem auto 2rem;
+        // width: 94%;
+    }
+
+    .downloadBtn {
+        padding: .8rem 3rem;
+        width: 100%;
+        max-width: 375px;
+        display: inline-block;
+        border-radius: 40px;
+        margin: .6rem auto;
+        border: none;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .iosBtn {
+        border-bottom: 3px solid rgb(25, 160, 227);
+        background-color: rgb(11, 126, 30);
+    }
+
+    .macBtn {
+        border-bottom: 3px solid green;
+        background-color: red;
+    }
+}

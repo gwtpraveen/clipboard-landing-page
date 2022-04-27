@@ -1,3 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+:root {
+  font-size: 18px;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.hero {
+  max-width: 375px;
+  padding: 0 0.8rem;
+  background: url(../../images/bg-header-mobile.png) no-repeat top center/cover;
+  margin: 0 auto 10rem;
+}
+.hero .logo {
+  margin-top: 7rem;
+}
+.hero .h1 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+}
+.hero .discription {
+  margin: 1.3rem auto 2rem;
+}
+.hero .downloadBtn {
+  padding: 0.8rem 3rem;
+  width: 100%;
+  max-width: 375px;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 0.6rem auto;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.hero .iosBtn {
+  border-bottom: 3px solid rgb(25, 160, 227);
+  background-color: rgb(11, 126, 30);
+}
+.hero .macBtn {
+  border-bottom: 3px solid green;
+  background-color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
