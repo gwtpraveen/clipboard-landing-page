@@ -1,0 +1,13 @@
+@use "../com/variables" as var;
+
+.accessClipboard {
+    margin-bottom: 6rem;
+    .h2 {
+        font-size: var.$font-size-h2;
+        margin-bottom: 1.5rem;
+    }
+
+    .discription {
+        margin-bottom: 4.5rem;
+    }
+}

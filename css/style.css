@@ -83,4 +83,15 @@ body {
   line-height: 1.5rem;
 }
 
+.accessClipboard {
+  margin-bottom: 6rem;
+}
+.accessClipboard .h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+.accessClipboard .discription {
+  margin-bottom: 4.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
