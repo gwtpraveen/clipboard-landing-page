@@ -14,14 +14,21 @@ body {
   text-align: center;
 }
 
+p {
+  line-height: 1.6rem;
+}
+
 .img {
   width: 100%;
+}
+
+body {
+  background: url(../../images/bg-header-mobile.png) no-repeat top center/cover;
 }
 
 .hero {
   max-width: 375px;
   padding: 0 0.8rem;
-  background: url(../../images/bg-header-mobile.png) no-repeat top center/cover;
   margin: 0 auto 10rem;
 }
 .hero .logo {
@@ -52,6 +59,28 @@ body {
 .hero .macBtn {
   border-bottom: 3px solid green;
   background-color: red;
+}
+
+.keepTrack {
+  max-width: 375px;
+  padding: 0 0.8rem;
+  margin: 0 auto 10rem;
+}
+.keepTrack .h2 {
+  font-size: 1.7rem;
+}
+.keepTrack .discription {
+  margin: 1.5rem auto 5rem;
+}
+.keepTrack .col {
+  margin-top: 3rem;
+}
+.keepTrack .col h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.keepTrack .col p {
+  line-height: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
