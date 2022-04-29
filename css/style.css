@@ -126,4 +126,36 @@ body {
   margin: 7rem auto 10rem;
 }
 
+.clipboardFor {
+  max-width: 375px;
+  padding: 0 0.8rem;
+  margin-bottom: 10rem;
+}
+.clipboardFor .h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.clipboardFor .discription {
+  margin-bottom: 2.5rem;
+}
+.clipboardFor .downloadBtn {
+  padding: 0.8rem 3rem;
+  width: 100%;
+  max-width: 375px;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 0.6rem auto;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.clipboardFor .iosBtn {
+  border-bottom: 3px solid rgb(25, 160, 227);
+  background-color: rgb(11, 126, 30);
+}
+.clipboardFor .macBtn {
+  border-bottom: 3px solid green;
+  background-color: red;
+}
+
 /*# sourceMappingURL=style.css.map */

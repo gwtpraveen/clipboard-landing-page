@@ -1,0 +1,38 @@
+@use "../com/variables" as var;
+
+.clipboardFor {
+    max-width: 375px;
+    padding: 0 0.8rem;
+    margin-bottom: 10rem;
+
+    .h2 {
+        font-size: var.$font-size-h2;
+        margin-bottom: 1rem;
+    }
+
+    .discription {
+        margin-bottom: 2.5rem;
+    }
+
+    .downloadBtn {
+        padding: .8rem 3rem;
+        width: 100%;
+        max-width: 375px;
+        display: inline-block;
+        border-radius: 40px;
+        margin: .6rem auto;
+        border: none;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .iosBtn {
+        border-bottom: 3px solid rgb(25, 160, 227);
+        background-color: rgb(11, 126, 30);
+    }
+
+    .macBtn {
+        border-bottom: 3px solid green;
+        background-color: red;
+    }
+}
