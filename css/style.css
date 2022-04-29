@@ -86,7 +86,7 @@ body {
 .accessClipboard {
   max-width: 375px;
   padding: 0 0.8rem;
-  margin-bottom: 6rem;
+  margin: 0 auto 6rem;
 }
 .accessClipboard .h2 {
   font-size: 1.7rem;
