@@ -64,6 +64,10 @@ body {
 }
 
 @media (min-width: 800px) {
+  body {
+    background: url(../../images/bg-header-desktop.png) no-repeat top center;
+  }
+
   .hero {
     max-width: 690px;
   }
