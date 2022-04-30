@@ -1,6 +1,7 @@
 @use "../com/global" as var;
 @use "../com/mixin" as *;
 @use "../com/common";
+@use "../com/variables" as *;
 
 body {
     background: url(../../images/bg-header-mobile.png) no-repeat top center/cover;
@@ -23,6 +24,7 @@ body {
 
     .discription {
         margin: 1.3rem auto 2rem;
+        color: $color-Grayish-Blue;
         // width: 94%;
     }
 
@@ -36,15 +38,39 @@ body {
         border: none;
         color: #fff;
         font-size: 1.2rem;
+        cursor: pointer;
     }
 
     .iosBtn {
-        border-bottom: 3px solid rgb(25, 160, 227);
-        background-color: rgb(11, 126, 30);
+        border-bottom: 4px solid hsl(171, 68%, 34%);
+        background-color: $color-Strong-Cyan;
     }
 
     .macBtn {
-        border-bottom: 3px solid green;
-        background-color: red;
+        border-bottom: 4px solid hsl(233, 59%, 55%);
+        background-color: $color-Light-Blue;
+    }
+}
+
+@media (min-width: $bp-desktop) {
+    .hero {
+        max-width: 690px;
+
+        .h1 {
+            letter-spacing: 3px;
+        }
+
+        .downloadBtn {
+            flex-basis: 32%;
+            margin: 0;
+            font-size: 1rem;
+            padding: .8rem 1rem;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
     }
 }
