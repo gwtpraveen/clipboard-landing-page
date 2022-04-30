@@ -96,6 +96,7 @@ body {
 }
 .keepTrack .discription {
   margin: 1.5rem auto 5rem;
+  color: hsl(201deg, 11%, 66%);
 }
 .keepTrack .col {
   margin-top: 3rem;
@@ -106,8 +107,46 @@ body {
 }
 .keepTrack .col p {
   line-height: 1.5rem;
+  color: hsl(201deg, 11%, 66%);
 }
 
+@media (min-width: 800px) {
+  .keepTrack {
+    max-width: none;
+  }
+  .keepTrack .discription {
+    max-width: 690px;
+  }
+  .keepTrack .row {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .keepTrack .row .image-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 696px;
+    height: 534px;
+  }
+  .keepTrack .row .image-container .img {
+    position: absolute;
+    top: 0;
+    left: -15px;
+  }
+  .keepTrack .row .content {
+    max-width: 390px;
+    margin-left: 5rem;
+  }
+  .keepTrack .row .content .col {
+    text-align: left;
+    margin-top: 2.5;
+  }
+  .keepTrack .row .content .col h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
 .accessClipboard {
   max-width: 375px;
   padding: 0 0.8rem;

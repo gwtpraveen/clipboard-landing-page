@@ -11,6 +11,7 @@
 
     .discription {
         margin: 1.5rem auto 5rem;
+        color: var.$color-Grayish-Blue;
     }
 
     .col {
@@ -22,7 +23,52 @@
 
         p {
             line-height: 1.5rem;
+            color: var.$color-Grayish-Blue;
         }
     }
 
+}
+
+@media (min-width: var.$bp-desktop) {
+    .keepTrack {
+        max-width: none;
+        .discription {
+            max-width: 690px;
+        }
+
+        .row {
+            max-width: 1400px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .image-container {
+                position: relative;
+                overflow: hidden;
+                max-width: 696px;
+                height: 534px;
+
+                .img {
+                    position: absolute;
+                    top: 0;
+                    left: -15px;
+                }
+            }
+
+            .content {
+                max-width: 390px;
+                margin-left: 5rem;
+
+                .col {
+                    text-align: left;
+                    margin-top: 2.5;
+
+                    h3 {
+                        font-size: 1.5rem;
+                        margin-bottom: .5rem;
+                    }
+                }
+            }
+        }
+    }
 }
