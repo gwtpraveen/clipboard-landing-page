@@ -158,8 +158,14 @@ body {
 }
 .accessClipboard .discription {
   margin-bottom: 4.5rem;
+  color: hsl(201deg, 11%, 66%);
 }
 
+@media (min-width: 800px) {
+  .accessClipboard {
+    max-width: 750px;
+  }
+}
 .superCharge {
   max-width: 375px;
   padding: 0 0.8rem;
@@ -171,6 +177,7 @@ body {
 }
 .superCharge .discription {
   padding-bottom: 1.5rem;
+  color: hsl(201deg, 11%, 66%);
 }
 .superCharge .row .col {
   margin-top: 4rem;
@@ -191,6 +198,22 @@ body {
   margin: 7rem auto 10rem;
 }
 
+@media (min-width: 800px) {
+  .superCharge {
+    max-width: 1200px;
+  }
+  .superCharge .row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .superCharge .row .col {
+    padding: 0 10px;
+  }
+  .superCharge .logos {
+    flex-direction: row;
+  }
+}
 .clipboardFor {
   max-width: 375px;
   padding: 0 0.8rem;

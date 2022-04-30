@@ -11,5 +11,12 @@
 
     .discription {
         margin-bottom: 4.5rem;
+        color: var.$color-Grayish-Blue;
+    }
+}
+
+@media (min-width: var.$bp-desktop) {
+    .accessClipboard {
+        max-width: 750px;
     }
 }
