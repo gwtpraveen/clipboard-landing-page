@@ -12,6 +12,7 @@
 
     .discription {
         margin-bottom: 2.5rem;
+        color: var.$color-Grayish-Blue;
     }
 
     .downloadBtn {
@@ -24,15 +25,35 @@
         border: none;
         color: #fff;
         font-size: 1.2rem;
+        cursor: pointer;
     }
 
     .iosBtn {
-        border-bottom: 3px solid rgb(25, 160, 227);
-        background-color: rgb(11, 126, 30);
+        border-bottom: 4px solid hsl(171, 68%, 34%);
+        background-color: var.$color-Strong-Cyan;
     }
 
     .macBtn {
-        border-bottom: 3px solid green;
-        background-color: red;
+        border-bottom: 4px solid hsl(233, 59%, 55%);
+        background-color: var.$color-Light-Blue;
+    }
+}
+
+@media (min-width: var.$bp-desktop) {
+    .clipboardFor {
+        max-width: 690px;
+
+        .downloadBtn {
+            flex-basis: 32%;
+            margin: 0;
+            font-size: 1rem;
+            padding: .8rem 1rem;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
     }
 }

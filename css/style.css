@@ -225,6 +225,7 @@ body {
 }
 .clipboardFor .discription {
   margin-bottom: 2.5rem;
+  color: hsl(201deg, 11%, 66%);
 }
 .clipboardFor .downloadBtn {
   padding: 0.8rem 3rem;
@@ -236,14 +237,32 @@ body {
   border: none;
   color: #fff;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 .clipboardFor .iosBtn {
-  border-bottom: 3px solid rgb(25, 160, 227);
-  background-color: rgb(11, 126, 30);
+  border-bottom: 4px solid hsl(171deg, 68%, 34%);
+  background-color: hsl(171deg, 66%, 44%);
 }
 .clipboardFor .macBtn {
-  border-bottom: 3px solid green;
-  background-color: red;
+  border-bottom: 4px solid hsl(233deg, 59%, 55%);
+  background-color: hsl(233deg, 100%, 69%);
+}
+
+@media (min-width: 800px) {
+  .clipboardFor {
+    max-width: 690px;
+  }
+  .clipboardFor .downloadBtn {
+    flex-basis: 32%;
+    margin: 0;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+  .clipboardFor .btn-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
