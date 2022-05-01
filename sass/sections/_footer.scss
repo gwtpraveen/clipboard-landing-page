@@ -1,0 +1,81 @@
+@use "../com/variables" as *;
+
+.footer {
+    padding: 3rem 0.8rem;
+    background-color: #f5f6f8;
+    
+    .container {
+        max-width: 375px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    img {
+        width: 70px;
+    }
+
+    a {
+        color: rgb(75, 75, 75);
+        text-decoration: none;
+        display: block;
+        margin-bottom: 2.3rem;
+
+        &:hover {
+            color: $color-Strong-Cyan;
+        }
+    }
+
+    .logos {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+
+        .fa-brands {
+            color: #4C545C;
+
+            &:hover {
+                cursor: pointer;
+                color: $color-Strong-Cyan;
+            }
+        }
+    }
+}
+
+@media (min-width: $bp-desktop) {
+    .footer {
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            flex-direction: row;
+
+            .logo-links-con {
+                display: flex;
+                align-items: flex-start;
+                img {
+                    margin-right: 5rem;
+                }
+
+                .links {
+                    display: flex;
+                    gap: 40px;
+                    flex-basis: 100%;
+                    text-align: left;
+                }
+            }
+        }
+
+        .logos {
+            flex-basis: 200px;
+        }
+
+
+    a {
+        margin-bottom: 1.5rem;
+    }
+    }
+
+}
