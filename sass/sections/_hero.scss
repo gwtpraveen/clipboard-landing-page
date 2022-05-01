@@ -10,7 +10,6 @@ body {
 .hero {
     max-width: 375px;
     padding: 0 0.8rem;
-    // background: url(../../images/bg-header-mobile.png) no-repeat top center/cover;
     margin: 0 auto 10rem;
 
     .logo {
@@ -20,12 +19,12 @@ body {
     .h1 {
         font-size: 1.8rem;
         margin-top: 2.5rem;
+        color: $color-Dark-Grayish-Blue;
     }
 
     .discription {
         margin: 1.3rem auto 2rem;
         color: $color-Grayish-Blue;
-        // width: 94%;
     }
 
     .downloadBtn {

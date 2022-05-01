@@ -37,6 +37,7 @@ body {
 .hero .h1 {
   font-size: 1.8rem;
   margin-top: 2.5rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .hero .discription {
   margin: 1.3rem auto 2rem;
@@ -93,6 +94,7 @@ body {
 }
 .keepTrack .h2 {
   font-size: 1.7rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .keepTrack .discription {
   margin: 1.5rem auto 5rem;
@@ -104,6 +106,7 @@ body {
 .keepTrack .col h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .keepTrack .col p {
   line-height: 1.5rem;
@@ -155,6 +158,7 @@ body {
 .accessClipboard .h2 {
   font-size: 1.7rem;
   margin-bottom: 1.5rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .accessClipboard .discription {
   margin-bottom: 4.5rem;
@@ -174,6 +178,7 @@ body {
 .superCharge .h2 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .superCharge .discription {
   padding-bottom: 1.5rem;
@@ -188,12 +193,14 @@ body {
 .superCharge .row .col .h3 {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .superCharge .logos {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   gap: 4rem;
   margin: 7rem auto 10rem;
 }
@@ -222,6 +229,7 @@ body {
 .clipboardFor .h2 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
+  color: hsl(210deg, 10%, 33%);
 }
 .clipboardFor .discription {
   margin-bottom: 2.5rem;
@@ -279,6 +287,7 @@ body {
 }
 .footer img {
   width: 70px;
+  margin-bottom: 3rem;
 }
 .footer a {
   color: rgb(75, 75, 75);

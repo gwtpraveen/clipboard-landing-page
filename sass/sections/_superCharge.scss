@@ -7,6 +7,7 @@
     .h2 {
         font-size: var.$font-size-h2;
         margin-bottom: 1rem;
+        color: var.$color-Dark-Grayish-Blue;
     }
 
     .discription {
@@ -25,6 +26,7 @@
             .h3 {
                 margin-bottom: 1.5rem;
                 font-size: var.$font-size-h3;
+                color: var.$color-Dark-Grayish-Blue;
             }
         }
     }
@@ -34,6 +36,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
         gap: 4rem;
         margin: 7rem auto 10rem;
     }
