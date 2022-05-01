@@ -14,6 +14,7 @@
 ### Screenshot
 
 ![the screenshot](./Screenshot.png)
+-[live-URL](https://clipboard-lan.netlify.app/)
 
 ## My process
 
